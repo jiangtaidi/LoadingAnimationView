@@ -91,12 +91,6 @@
     }
 }
 
--(void)setFrame:(CGRect)frame
-{
-    
-    return [super setFrame:frame];
-}
-
 -(void)startAnimation
 {
     self.readyStop = NO;

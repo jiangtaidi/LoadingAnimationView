@@ -15,6 +15,8 @@
 		08E2E2981C3E714600B640C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E2E2961C3E714600B640C3 /* LaunchScreen.storyboard */; };
 		08E2E2A31C3E714600B640C3 /* LoadAnimationProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E2E2A21C3E714600B640C3 /* LoadAnimationProTests.m */; };
 		08E2E2AE1C3E714600B640C3 /* LoadAnimationProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E2E2AD1C3E714600B640C3 /* LoadAnimationProUITests.m */; };
+		08E2E2BD1C3E717500B640C3 /* AXLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E2E2BC1C3E717500B640C3 /* AXLoadingAnimationView.m */; };
+		08E2E2C01C3E71CD00B640C3 /* UIView+addView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E2E2BF1C3E71CD00B640C3 /* UIView+addView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		08E2E2A91C3E714600B640C3 /* LoadAnimationProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadAnimationProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E2E2AD1C3E714600B640C3 /* LoadAnimationProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadAnimationProUITests.m; sourceTree = "<group>"; };
 		08E2E2AF1C3E714600B640C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E2E2BB1C3E717500B640C3 /* AXLoadingAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXLoadingAnimationView.h; sourceTree = "<group>"; };
+		08E2E2BC1C3E717500B640C3 /* AXLoadingAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXLoadingAnimationView.m; sourceTree = "<group>"; };
+		08E2E2BE1C3E71CD00B640C3 /* UIView+addView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+addView.h"; sourceTree = "<group>"; };
+		08E2E2BF1C3E71CD00B640C3 /* UIView+addView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+addView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		08E2E2871C3E714600B640C3 /* LoadAnimationPro */ = {
 			isa = PBXGroup;
 			children = (
+				08E2E2BE1C3E71CD00B640C3 /* UIView+addView.h */,
+				08E2E2BF1C3E71CD00B640C3 /* UIView+addView.m */,
+				08E2E2BB1C3E717500B640C3 /* AXLoadingAnimationView.h */,
+				08E2E2BC1C3E717500B640C3 /* AXLoadingAnimationView.m */,
 				08E2E28B1C3E714600B640C3 /* AppDelegate.h */,
 				08E2E28C1C3E714600B640C3 /* AppDelegate.m */,
 				08E2E28E1C3E714600B640C3 /* ViewController.h */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E2E2901C3E714600B640C3 /* ViewController.m in Sources */,
+				08E2E2BD1C3E717500B640C3 /* AXLoadingAnimationView.m in Sources */,
+				08E2E2C01C3E71CD00B640C3 /* UIView+addView.m in Sources */,
 				08E2E28D1C3E714600B640C3 /* AppDelegate.m in Sources */,
 				08E2E28A1C3E714600B640C3 /* main.m in Sources */,
 			);

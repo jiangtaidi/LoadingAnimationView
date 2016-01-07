@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AXLoadingAnimationView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setupUI];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setupUI
+{
+    AXLoadingAnimationView *loadView = [AXLoadingAnimationView loadingAnimationViewWithFrame:CGRectMake(100, 100, 150, 50) ballSize:20];
+    [self.view addSubview:loadView];
+    
 }
+
 
 @end
